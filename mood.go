@@ -1,5 +1,10 @@
 package mood
 
+import (
+	"flag"
+	"fmt"
+)
+
 var Status = "sad"
 
 func init() {
