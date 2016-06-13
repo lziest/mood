@@ -10,8 +10,11 @@ import (
 // Status is a simple string
 var Status = "happy"
 
+func init() {
+	fmt.Printf("init(): mood.Status ptr = %p\n", &Status)
+}
+
 // Show shows mood status
 func Show() {
-	fmt.Printf("mood.Status ptr = %p\n", &Status)
 	fmt.Println("I'm", Status)
 }
