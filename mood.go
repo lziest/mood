@@ -3,7 +3,6 @@
 package mood
 
 import (
-	"flag"
 	"fmt"
 )
 
